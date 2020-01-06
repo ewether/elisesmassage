@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Elisesmassage</title>
+    <title>Elises Massage</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +11,17 @@
 
   <body>
     <%= yield %>
+
+    <header class='header'>
+      <a href="/">Home</a>
+    </header>
+
+    <footer class='footer'>
+      <ul>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
