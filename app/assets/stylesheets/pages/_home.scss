@@ -3,7 +3,7 @@
 }
 
 .main-button {
-  background-color: white;
+  background-color: #dfe8e5;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -11,17 +11,55 @@
   margin: 0 auto;
   font-size: 21px;
   height: 36px;
-  color: black;
+  color: #242626;
   border-radius: 20px;
   line-height: 36px;
+  margin-top: 16px;
 }
 
 .main-button:hover {
+  background-color: #d0d9d6;
+  color: #181a1a;
+}
 
+
+.homepage-content {
+  height: 600px;
+}
+
+.content-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  // background-size: cover;
+  width: 796px;
+  margin-left: 8px;
+  margin-top: 8px;
+  opacity: .2;
+}
+
+.description-pic {
+  height: 500px;
+  width: 340px;
+}
+
+.content-description {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content-description p {
+  text-align: center;
 }
 
 .homepage h1 {
   color: white;
   text-align: center;
   padding-top: 160px;
+  margin: 0px;
+}
+
+.homepage-content h2 {
+  text-align: center;
 }
