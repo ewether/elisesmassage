@@ -15,3 +15,7 @@
  */
  @import "pages/index";
  @import "components/index";
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}

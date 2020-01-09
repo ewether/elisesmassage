@@ -1,5 +1,21 @@
 .homepage-banner {
-  height: 400px;
+  height: 500px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-color: #24262;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .homepage-banner {
+    height: 300px;
+  }
+
+  .homepage-banner h1 {
+    padding: 0px;
+  }
+
 }
 
 .main-button {
@@ -14,7 +30,7 @@
   color: #242626;
   border-radius: 20px;
   line-height: 36px;
-  margin-top: 16px;
+  margin-top: 28px;
 }
 
 .main-button:hover {
@@ -22,44 +38,83 @@
   color: #181a1a;
 }
 
-
 .homepage-content {
-  height: 600px;
-}
-
-.content-background {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  // background-size: cover;
-  width: 796px;
-  margin-left: 8px;
-  margin-top: 8px;
+  height: 400px;
+  background: url('https://images.pexels.com/photos/1437953/pexels-photo-1437953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat fixed;
+  background-size: cover;
   opacity: .2;
-}
-
-.description-pic {
-  height: 500px;
-  width: 340px;
-}
-
-.content-description {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.content-description p {
   text-align: center;
 }
 
-.homepage h1 {
+.homepage-banner h1 {
   color: white;
+  width: 300px;
   text-align: center;
-  padding-top: 160px;
-  margin: 0px;
+  padding-top: 25%;
+  margin: 0 auto;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dfe8e5;
 }
 
 .homepage-content h2 {
   text-align: center;
+  padding-top: 60px;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+.homepage-content p {
+  text-align: center;
+}
+
+// position: sticky;
+
+
+
+
+
+
+
+
+
+html, body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#brand{
+  font-size: 1.5em;
+  float: left;
+  padding: 30px 15px 0px 15px;
+  line-height: 10px;
+
+}
+
+#nav-main{
+  background-color: #444;
+  color: #fff;
+  height: 70px;
+}
+
+#nav-main ul {
+  list-style-type: none;
+  margin:0;
+}
+
+#nav-main ul li {
+  display: inline-block;
+  padding: 30px 20px 0px 20px;
+  line-height: 10px;
+  height: 40px;
+}
+
+#nav-main ul li a {
+  text-decoration: none;
+  color: #DBE2F1;
+}
+
+#nav-main ul li:hover {
+  background-color: #797979;
+  cursor: pointer;
 }
