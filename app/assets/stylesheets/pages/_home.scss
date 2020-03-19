@@ -1,21 +1,20 @@
-.homepage-banner {
-  height: 500px;
-  border-bottom-style: solid;
+.banner {
+  height: 600px;
+  width: 100%;
+  // border-bottom-style: solid;
   border-width: 2px;
-  border-bottom-color: #24262;
-  text-align: center;
+  // border-bottom-color: #24262;
 }
 
-@media only screen and (max-width: 768px) {
-
-  .homepage-banner {
-    height: 300px;
-  }
-
-  .homepage-banner h1 {
-    padding: 0px;
-  }
-
+.homepage-banner h1 {
+  color: white;
+  width: 350px;
+  text-align: center;
+  padding-top: 186px;
+  margin: 0 auto;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #dfe8e5;
 }
 
 .main-button {
@@ -25,7 +24,7 @@
   text-decoration: none;
   width: 120px;
   margin: 0 auto;
-  font-size: 21px;
+  font-size: 18px;
   height: 36px;
   color: #242626;
   border-radius: 20px;
@@ -39,82 +38,51 @@
 }
 
 .homepage-content {
-  height: 400px;
-  background: url('https://images.pexels.com/photos/1437953/pexels-photo-1437953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat fixed;
+  position: relative;
+}
+
+.homepage-content img {
+  width: 100%;
+  // background: url('https://images.pexels.com/photos/1437953/pexels-photo-1437953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat fixed;
   background-size: cover;
   opacity: .2;
   text-align: center;
 }
 
-.homepage-banner h1 {
-  color: white;
-  width: 300px;
+.content-text {
+  position: absolute;
+  bottom: 85%;
+  color: black;
   text-align: center;
-  padding-top: 25%;
-  margin: 0 auto;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: #dfe8e5;
 }
 
-.homepage-content h2 {
+.content-text h2 {
   text-align: center;
   padding-top: 60px;
   margin: 0 auto;
   opacity: 1;
 }
 
-.homepage-content p {
+.content-text p {
   text-align: center;
 }
 
 // position: sticky;
 
+@media only screen and (max-width: 768px) {
 
+  .homepage-banner {
+    height: 300px;
+  }
 
-
-
-
-
-
-
-html, body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#brand{
-  font-size: 1.5em;
-  float: left;
-  padding: 30px 15px 0px 15px;
-  line-height: 10px;
+  .homepage-banner h1 {
+    padding: 0px;
+  }
 
 }
 
-#nav-main{
-  background-color: #444;
-  color: #fff;
-  height: 70px;
-}
 
-#nav-main ul {
-  list-style-type: none;
-  margin:0;
-}
 
-#nav-main ul li {
-  display: inline-block;
-  padding: 30px 20px 0px 20px;
-  line-height: 10px;
-  height: 40px;
-}
 
-#nav-main ul li a {
-  text-decoration: none;
-  color: #DBE2F1;
-}
 
-#nav-main ul li:hover {
-  background-color: #797979;
-  cursor: pointer;
-}
+
