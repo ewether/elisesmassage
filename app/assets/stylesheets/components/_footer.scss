@@ -1,5 +1,5 @@
 .footer a {
-  color: #242626;
+  color: #c4ccc9;
   text-decoration: none;
 }
 
@@ -11,14 +11,15 @@
   padding: 0px 250px;
   display: flex;
   justify-content: space-between;
-  background-color: #dfe8e5;
+  background-color: #414545;
   height: 40px;
   line-height: 40px;
   border-radius: 2px;
+  margin: 0 auto;
 }
 
 .footer a:hover {
-  color: black;
+  color: #e9f2ef;
 }
 
 .footer-btn {
@@ -36,7 +37,7 @@
 
 .footer-btn:after {
   content: '  »';
-  color: black;
+  color: #e9f2ef;
   opacity: 0;
   top: 14px;
   right: -20px;
