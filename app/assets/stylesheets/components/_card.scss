@@ -1,0 +1,85 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+  z-index: 11;
+  margin-top: -250px;
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-one {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #dfe8e5;
+  // transition: 0.3s;
+  // position: absolute;
+  z-index: 11;
+  width: 250px;
+  // margin-right: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-one:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.card-one-content {
+  padding: 2px 16px;
+}
+
+.card-one img {
+  width: 250px;
+}
+
+.card-two {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  // transition: 0.3s;
+  // position: absolute;
+  background-color: #dfe8e5;
+  z-index: 11;
+  width: 250px;
+  // margin-left: 250px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-two:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.card-two-content {
+  padding: 2px 16px;
+}
+
+.card-two img {
+  width: 250px;
+}
+
+.card-three {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  // transition: 0.3s;
+  // position: absolute;
+  background-color: #dfe8e5;
+  z-index: 11;
+  width: 250px;
+  // margin-left: 500px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-three:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.card-three-content {
+  padding: 2px 16px;
+}
+
+.card-three img {
+  width: 250px;
+}
